@@ -1,6 +1,6 @@
-# Tornozeleira_detectora_de_obstaculos
+# Tornozeleira Detectora de Obstaculos
 
-[About-us]
+##About-us
 
-[Dependency]
+##Dependency
 [ArduinoThread](https://github.com/ivanseidel/ArduinoThread)
