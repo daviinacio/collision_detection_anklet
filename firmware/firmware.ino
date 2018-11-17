@@ -11,16 +11,20 @@
 #include <ThreadController.h>
 
 // Arduino Uno Pinage
-//#define PIN_MOTOR 5
-//#define PIN_TRIG 4
-//#define PIN_ECHO 3
-//#define PIN_LED 13
+#if defined(__AVR_ATmega328__) || defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
+  #define PIN_MOTOR 5
+  #define PIN_TRIG 4
+  #define PIN_ECHO 3
+  #define PIN_LED 13
 
 // Digispark AtTiny85 Pinage
-#define PIN_MOTOR 0
-#define PIN_TRIG 2
-#define PIN_ECHO 4
-#define PIN_LED 1
+#else
+  #define PIN_MOTOR 0
+  #define PIN_TRIG 2
+  #define PIN_ECHO 4
+  #define PIN_LED 1
+  
+#endif
 
 #define DIST_FAR 150
 #define DIST_WARN 100
