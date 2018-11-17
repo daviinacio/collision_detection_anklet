@@ -6,4 +6,4 @@ About-us
 
 Dependency
 ----------
-[ArduinoThread](https://github.com/ivanseidel/ArduinoThread)
+ * [ArduinoThread](https://github.com/ivanseidel/ArduinoThread)
