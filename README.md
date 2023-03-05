@@ -1,4 +1,4 @@
-# Tornozeleira Detectora de Obstaculos
+# Collision Detection Anklet
 This is an academic project · UnigranRio 2018.2
 
 ## Presentation video
